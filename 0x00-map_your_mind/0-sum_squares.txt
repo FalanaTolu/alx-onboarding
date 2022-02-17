@@ -1,0 +1,5 @@
+This program will allow the user to calculate the sum of squares of given input of numbers
+            
+	Read num;            
+	Set sum=int((num * (num+1) * ((2*num) + 1))/6);         
+	Print sum;
