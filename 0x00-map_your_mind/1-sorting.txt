@@ -1,0 +1,43 @@
+This program will allow the user to read in three numbers and write them in sorted order
+
+   begin
+	numeric num1, num2, num3, x, y, z
+	display "Enter First number"
+	accept num1
+	display "Enter Second number"
+	accept num2
+	display "Enter Third number"
+	accept num3
+	IF num1<num2 and num1<num3: 
+   	begin
+	    IF num2<num3
+	    begin
+		display x,y,z=num1,num2,num3 
+	    end
+	    ELSE
+	    begin 
+		display x,y,z=num1,num3,num2
+	    end 
+	end
+	ELIF num2<num1 and num2<num3
+	begin
+ 	    IF num1<num3
+	    begin
+		display x,y,z=num2,num1,num3 
+	    end
+	    ELSE: 
+	    begin
+		display x,y,z=num2,num3,num1 
+	    end
+	end
+	    ELSE: 
+	    IF num1<num2
+	    begin
+		display x,y,z=num3,num1,num2 
+	    end
+	ELSE:
+	begin
+ 		x,y,z=num3,num2,num1 
+	end
+	display x,y,z
+   end

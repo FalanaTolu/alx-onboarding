@@ -1,0 +1,19 @@
+This program will allow the user to  enter numbers that will be added to the sum and when a negative number is encountered, 
+stop adding numbers and write out the final result, that is calculate a running sum
+
+   begin
+	numeric num, run_sum
+	accept  num 
+	IF num <0
+	begin 
+	    Display "Please enter a positive number"
+	end
+	ELSE Set sum to 0
+
+	WHILE (num  >=  0)
+	begin 
+	    Set run_sum += num
+	num -= 1
+	Display run_sum
+	end
+   end
